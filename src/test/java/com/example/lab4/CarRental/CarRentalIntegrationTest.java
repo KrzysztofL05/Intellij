@@ -77,7 +77,7 @@ class CarRentalIntegrationTest {
         );
         assertTrue(availableVectraLater, "Vectra powinna być dostępna w późniejszym terminie");
 
-        // Próba wypożyczenia z błędnymi datami (from > to)
+        // Próba wypożyczenia z błędnymi datami
         boolean rentedInvalidDates = rentalService.rent(
                 "mondeo",
                 5,
