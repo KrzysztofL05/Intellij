@@ -18,7 +18,7 @@ public class CarRentalApplication {
         boolean sclass = rentalService.isAvailable("s class", LocalDate.of(2025, 12, 2), LocalDate.of(2025, 12, 9));
         boolean sclass1 = rentalService.rent("s class", 4, LocalDate.of(2025, 12, 14), LocalDate.of(2025, 12, 9));
         boolean sclass2 = rentalService.rent("s class", 5, LocalDate.of(2025, 12, 13), LocalDate.of(2025, 12, 18));
-        //poprawic kolejnosc ifow najpierw model potem data
+
     }
 
 	public static void main(String[] args) {
